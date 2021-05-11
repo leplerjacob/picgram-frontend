@@ -1,0 +1,22 @@
+components
+    -sign up/log in
+    -navbar
+        -main page
+            -stories component (maybe placeholder)
+            -posts from people you follow
+            -profile info (inclusing picture and username maybe with stats)
+        -direct messaging - (coming soon message)
+        -explore
+        -notifications dropdown
+        -profile
+            -followers
+            -following
+            -reusable component profile (the one used in the main)
+            -display options
+                -display posts
+                -display saved
+                -display tagged
+
+packages
+    -axios
+    -flexbox
