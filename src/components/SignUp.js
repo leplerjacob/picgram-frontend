@@ -41,11 +41,11 @@ function SignUp() {
 
     return (
         <div>
-        <Form onSubmit={handleSubmit}>
-            Email<input name="email" type="text" value={values.email} onChange={handleEmail}/>
-            Password<input name="password" type="password" value={values.password} onChange={handlePassword}/>
-            <button type="submit">Submit</button>
-        </Form>
+            <Form onSubmit={handleSubmit}>
+                Email<input name="email" type="text" value={values.email} onChange={handleEmail}/>
+                Password<input name="password" type="password" value={values.password} onChange={handlePassword}/>
+                <button type="submit">Submit</button>
+            </Form>
         </div>
     )
 }
