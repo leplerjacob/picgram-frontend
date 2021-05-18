@@ -1,5 +1,6 @@
 import React from 'react'
 import SignUp from './components/SignUp.js'
+import Login from './components/Login.js'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <SignUp/>
+      <Login/>
     </div>
   )
 }
