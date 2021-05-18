@@ -1,7 +1,7 @@
+// eslint-disable-next-line
 import React, { useState } from 'react'
 import Form from "react-bootstrap/Form"
 import { signUp } from "../actions/auth"
-
 
 
 function SignUp() {
@@ -44,7 +44,7 @@ function SignUp() {
             <Form onSubmit={handleSubmit}>
                 Email<input name="email" type="text" value={values.email} onChange={handleEmail}/>
                 Password<input name="password" type="password" value={values.password} onChange={handlePassword}/>
-                <button type="submit">Submit</button>
+                <button type="submit">Sign Up</button>
             </Form>
         </div>
     )
