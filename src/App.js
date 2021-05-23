@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Welcome to Picgram!</h1>
       <SignUp/>
       <Login/>
     </div>
