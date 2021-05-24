@@ -32,3 +32,8 @@ Axios requests
 Nerly --> Learn Context API, Axios
 Jacob --> Learn Context API, Axios
 Christian --> Learn Context API, Axios
+
+Notes on Context
+
+Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+
